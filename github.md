@@ -37,3 +37,11 @@
    - git log 查看提交日志 
      - git log --pretty=short更简洁的显示
      - git log 后加目录名或文件名，只显示与该目录，该文件相关的日志
+     - git diff 查看更新前后的差别
+
+9. 分支的操作
+
+   - git branch 列出当前所有分支，当前分支前有*号
+   - git branch feature-A 创建分支feature-A
+   - git checkout feature-A 切换分支
+   - git checkout -b feature-A 创建并切换到新分支feature-A
