@@ -24,3 +24,16 @@
 
    > - git bash客户端切换到相应目录，如/d/jyhd_workspace/github_test
    > - git clone git@github.com:zhangfan111/Hello-World.git 输入密码clone
+
+7. 提交到仓库
+
+   > - git add XXX.java	git add命令将文件加入暂存区
+   > -  git commit 提交
+   > - git push，GitHub上的仓库会被更新
+
+8. 常用命令
+
+   - git status 查看仓库的状态
+   - git log 查看提交日志 
+     - git log --pretty=short更简洁的显示
+     - git log 后加目录名或文件名，只显示与该目录，该文件相关的日志
