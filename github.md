@@ -45,3 +45,15 @@
    - git branch feature-A 创建分支feature-A
    - git checkout feature-A 切换分支
    - git checkout -b feature-A 创建并切换到新分支feature-A
+   - git branch -D fix-B 删除本地分支
+   - git reset --hard 回溯历史版本
+   - git merge 合并分支 (feature-A分支合并到主分支，需先切换到主分支，git merge --no-ff feature-A)
+   - git log --graph 以图表形式输出提交日志
+   - git reset 回溯历史版本（git reset --hard 目标时间点的哈希值）
+   - git reflog查看当前仓库的操作日志
+   - git commit --amend 修改提交信息
+   - git commit -am “XXX” 是git add和git commit的合并
+   - git rebase -i 压缩历史 git rebase -i HEAD~2
+   - 
+   
+10. 主干分支：是特性分支的原点，也是合并的终点。
