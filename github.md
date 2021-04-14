@@ -53,7 +53,7 @@
    - git reflog查看当前仓库的操作日志
    - git commit --amend 修改提交信息
    - git commit -am “XXX” 是git add和git commit的合并
-   - git rebase -i 压缩历史 git rebase -i HEAD~2
+   - git rebase -i 压缩历史 git rebase -i HEAD~2，把左侧的pick部分删除，改写为fixup
    - 
    
 10. 主干分支：是特性分支的原点，也是合并的终点。
